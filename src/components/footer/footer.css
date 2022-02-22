@@ -1,0 +1,63 @@
+/* /////////////////    Footer //////////////  */
+
+  
+  .footer_info h1,
+  .footer_link h1,
+  .footer_service h1,
+  .footer_contact h1 {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+  }
+  .footer_info p {
+    font-size: 1rem;
+  }
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .footer a:hover {
+    color: var(--orange-color);
+  }
+  .footer_info .social_media a {
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+  }
+  .footer_info .social_media a:hover {
+    transform: scale(1.2);
+  }
+  .footer_info .number span {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .footer_link ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_link ul li {
+    margin-bottom: 0.4rem;
+  }
+  
+  .footer_service ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_service ul li {
+    text-transform: capitalize;
+    margin-bottom: 0.4rem;
+  }
+  
+  .footer_contact ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_contact ul li {
+    text-transform: capitalize;
+    margin-bottom: 0.4rem;
+  }
+  .footer_contact .fas {
+    margin:0 5px;
+  }
